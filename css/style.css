@@ -4,6 +4,30 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.icon2_margin{
+  margin-left:10px;
+}
+.main_div{
+  width: 100%;overflow:auto;
+}
+.accordian_style_left{
+  float: left;margin-left: 100px;
+}
+.accordian_style_right{
+  float: right; margin-right: 100px;
+}
+.img_style{
+  margin-left: -40px;
+}
+.project_style{
+  list-style-type: square; text-align: justify; margin-left:-5%;
+}
+.date_style{
+  color: white; font-weight: 800;
+}
+.table_style{
+  font-size: larger;color: black;width: 100%;
+}
 body{
 	margin:0;
 	font-family: 'Raleway', sans-serif;
@@ -165,6 +189,9 @@ float:none;
 }
 /*--//banner--*/
 /*--about--*/
+.about-me{
+  text-align: justify;
+}
 .about{
 padding:60px 0 25px 0;
 }
