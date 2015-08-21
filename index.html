@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+	<title>Jenil Doshi - Portfolio</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--accordian-->
+		<link rel="stylesheet" type="text/css" href="css/defaults.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+		<link rel="stylesheet" href="css/styleTimeline.css"> <!-- Resource style -->
+		<link rel="stylesheet" href="css/expTimeline.css">
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Jenil Doshi, Portfolio, Experience, Education, 24/7 Customers Inc., Accenture Services Pvt. Ltd., Emarkup Web Solutions, Software Engineer, San Jose State University, K. J. Somaiya College of Engineering, Blog" />
+		<meta name="description" content="This websites describes everything about Jenil Doshi's Education, Experience, Skills, Projects, Contact Information and also Blogs posted by him.">
+		<meta name="language" content="English"> 
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/accordion.js"></script>
+		<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-66568721-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav-->
+			<div class="logo">
+				<h1>Portfolio</h1>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#skills"><span>skills</span></a></li>
+										<li><a class="scroll" href="#experience"><span>experience</span></a></li>
+										<li><a class="scroll" href="#education"><span>education</span></a></li>
+										<li><a class="scroll" href="#projects"><span>projects</span></a></li>
+										<li><a class="scroll" href="#blog"><span>blog</span></a></li>
+										<li><a class="scroll" href="#contact"><span>contact</span></a></li>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!--start-click-drop-down-menu-->
+			        <!--start-dropdown-->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					function display(url, width, height) {
+					    var leftPosition, topPosition;
+					    //Allow for borders.
+					    leftPosition = (window.screen.width / 2) - ((width / 2) + 10);
+					    //Allow for title and status bars.
+					    topPosition = (window.screen.height / 2) - ((height / 2) + 50);
+					    //Open the window.
+					    window.open(url, "Window2",
+					    "status=no,height=" + height + ",width=" + width + ",resizable=yes,left="
+					    + leftPosition + ",top=" + topPosition + ",screenX=" + leftPosition + ",screenY="
+					    + topPosition + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no");
+					}
+					</script>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-right">
+				<h1>Jenil Doshi</h1>
+				<div class="border"></div>
+				<h2>Software Engineer</h2>
+				<a href="#" onclick="display('public/JenilDoshi.pdf', 700, 500);">DOWNLOAD MY RESUME</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt="about"/></div>
+		<div class="about-section-grids">
+					<div class="col-md-4 about-section-grid-1 about-me">
+						<p>I am a strongly independent person with drive and ambition to have experiences and accomplish things out of the ordinary. I can work intently at whatever is new and holds my interest.</p>
+						<p>I am currently pursuing Masters from San Jose State University in the field of Software Engineering. I am interested in Web Applications Development having in-depth knowledge of front-end and back-end technologies.</p>
+						<p>I have worked with 24/7 Customers Inc. as a Cloud Services Intern for a full stack development role which included development of Restful web services in Java and Web application for visualization of data using Dygraphs. </p>
+						<p>After completing my bachelors, I was working in Accenture as a Software Engineer as an Intergration Developer, responsible for developing and orchestrating process flows by invoking independent web services. </p>
+						
+
+
+					</div>
+					<div class="col-md-4 about-section-grid-2 text-center">
+						<img src="images/avatar.jpg" class="img-responsive" alt="avatar" /> 
+					</div>
+					<div class="clearfix">
+					<div class="soc_icons">
+					<ul>
+					<li><a class="icon4" href=" https://linkedin.com/in/jenildoshi"></a></li>
+					<li><a class="icon2 icon2_margin" href="https://github.com/jenil-doshi"></a></li>
+					<li><a class="icon1" href="https://www.facebook.com/jenil.doshi.31"></a>  </li>
+				</ul>
+					</div>
+					</div>
+				</div>
+		
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center" id="skills">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt="skills"/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>MySQL</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>AJAX</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Html 5 / CSS 3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Javascript</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Python</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Java</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>			
+									
+								Circles.create({
+									id:         document.getElementById('circles-1').id,
+									percentage: 70,
+									radius:     80,
+									width:      10,
+									number:   	70,
+									text:       '%',
+									colors:     ['#73c1ce', '#ffffff']
+								});
+								Circles.create({
+									id:         document.getElementById('circles-2').id,
+									percentage: 80,
+									radius:     80,
+									width:      10,
+									number:   	80,
+									text:       '%',
+									colors:     ['#73c1ce', '#ffffff']
+								});
+								Circles.create({
+									id:         document.getElementById('circles-3').id,
+									percentage: 85,
+									radius:     80,
+									width:      10,
+									number:   	85,
+									text:       '%',
+									colors:     ['#73c1ce', '#ffffff']
+								});
+								Circles.create({
+									id:         document.getElementById('circles-4').id,
+									percentage: 70,
+									radius:     80,
+									width:      10,
+									number:   	70,
+									text:       '%',
+									colors:     ['#73c1ce', '#ffffff']
+								});
+								Circles.create({
+									id:         document.getElementById('circles-5').id,
+									percentage: 30,
+									radius:     80,
+									width:      10,
+									number:   	30,
+									text:       '%',
+									colors:     ['#73c1ce', '#ffffff']
+								});
+								Circles.create({
+									id:         document.getElementById('circles-6').id,
+									percentage: 80,
+									radius:     80,
+									width:      10,
+									number:   	80,
+									text:       '%',
+									colors:     ['#73c1ce', '#ffffff']
+								});
+								
+						
+				</script>
+		</div>
+
+	</div>	
+	<hr>
+	<div class="main_div">
+	<div class="accordion accordian_style_left">
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-1">Technical Languages</a>
+				<div id="accordion-1" class="accordion-section-content">
+					<p>Java</p>
+					<p>Python</p>
+					<p>Javascript</p>
+					<p>AspectJ</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-2">Database Administration</a>
+				<div id="accordion-2" class="accordion-section-content">
+					<p>MySQL</p>
+					<p>SQL Server</p>
+					<p>SQL Yog</p>
+					<p>Oracle</p>
+					<p>Mongo DB</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-3">Web Technologies</a>
+				<div id="accordion-3" class="accordion-section-content">
+					<p>HTML5</p>
+					<p>CSS3</p>
+					<p>AJAX</p>
+					<p>Bootstrap</p>
+					<p>Photoshop</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section"  >
+				<a class="accordion-section-title" href="#accordion-4">Other Technologies</a>
+				<div id="accordion-4" class="accordion-section-content">
+					<p>Docker Container</p>
+					<p>JAX-RS</p>
+					<p>JAX-WS</p>
+					<p>Rabbit-MO</p>
+					<p>Redis Cache</p>
+					<p>XML</p>	
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+		</div><!--end .accordion-->
+
+
+		<div class="accordion accordian_style_right">
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-5">Frameworks</a>
+				<div id="accordion-5" class="accordion-section-content">
+					<p>Node.Js</p>
+					<p>Angular.Js</p>
+					<p>jQuery</p>
+					<p>Apache CXF</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section"  >
+				<a class="accordion-section-title" href="#accordion-6">Software Tools</a>
+				<div id="accordion-6" class="accordion-section-content">
+					<p>VMware vSphere Client</p>
+					<p>Integration Designer</p>
+					<p>MySql Workbench</p>
+					<p>SOAP UI</p>
+					<p>Eclipse</p>
+					<p>JMeter</p>
+					<p>SVN</p>
+					<p>GIT</p>
+					<p>Perforce</p>	
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-7">Cloud Platforms</a>
+				<div id="accordion-7" class="accordion-section-content">
+					<p>Salesforce</p>
+					<p>Mongo Lab</p>
+					<p>Bluemix</p>
+					<p>AWS EC2</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-8">Operation System</a>
+				<div id="accordion-8" class="accordion-section-content">
+					<p>Windows</p>
+					<p>Ubuntu</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+		</div><!--end .accordion-->
+	</div>
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--work-->
+<div class="work-experience text-center" id="experience">
+	<div class="work-info">
+		<h3>WORK EXPERIENCE</h3>
+		<div class="strip text-center"><img src="images/work.png" alt="work"/></div>
+	
+		<div class="container">
+			<ul class="timeline">
+		        <li>
+		          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <img src="./images/247.png" class="img_style" alt="logo">
+		              <h4 class="timeline-title">24/7 Customers Inc.</h4>
+		              <p><small class="text-muted">Cloud Services Intern, June 2015 - Aug 2015</small></p>
+		            </div>
+		            <div class="timeline-body">
+		              <ul>
+		              	<li>
+		              	Understood Java API for Restful Web Services (JAX-RS) that provides support in creating web services according to the Representational State Transfer (REST) architectural pattern.
+		              	</li>
+		              	<li>
+						Implemented functionalities of existing application in JAX-RS using Apache CXF framework.
+						</li>
+						<li>
+						Understood the needs and goals of using CXF framework over other JAX-RS frameworks like Jersey, Restlet, etc.
+						</li>
+						<li>
+						Designed Restful API calls for an existing application by following the naming conventions for URI.
+						</li>
+						<li>
+						Implemented API resource representation in JSON and XML data formats.
+						</li>
+						<li>
+						Provided a Web Application Description Language (WADL) which models the resources provided by a service and the relationships between them.
+						</li>
+						<li>
+						Implemented historical data capture and improved the health calculation for existing application.
+						</li>
+						<li>
+						Represented the historical data in the form of Confidence Interval Grah using JavaScript graph library D3.JS.
+						</li>
+					   </ul>
+		            </div>
+		          </div>
+		        </li>
+		        <li class="timeline-inverted">
+		          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <img src="./images/sjsu.png" class="img_style" alt="logo">
+		              <h4 class="timeline-title">San Jose State University</h4>
+		               <p><small class="text-muted">Research Assistant, Professor Mahamed Fayad, Aug 2014 – Dec 2014</small></p>
+		            </div>
+		            <div class="timeline-body">
+		              <ul>
+		               <li>
+						Assisted professor in writing side-bars and developing videos for Fayad’s Research Group.
+					   </li>
+					   <li>
+						Developed and Maintained professor’s personal website to post study materials.
+					   </li>
+					  </ul>
+		            </div>
+		          </div>
+		        </li>
+		        <li>
+		          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <img src="./images/acc.jpg" class="img_style" alt="logo">
+		              <h4 class="timeline-title">Accenture Services PVT. LTD.</h4>
+		              <p><small class="text-muted">Software Engineer, Jan 2013 - July 2014</small></p>
+		            </div>
+		            <div class="timeline-body">
+		              <ul>
+		              	<li>Elicited and analyzed tightly coupled legacy application’s business logic to make it loosely coupled application.
+		              	</li>
+		              	<li>
+						Implemented ‘Proof of Concept’ to showcase the usability of Business Process Management tool by understanding SOA.
+						</li>
+						<li>
+						Orchestrated BPM flows using process flows and mediation components to run the application end-to-end.
+						</li>
+						<li>
+						Performed unit test and load test of entire flows using JMeter and SOAP client.
+						</li>
+						<li>
+						Monitored performance of process flows by developing real time dashboards using Business Activity Monitoring tool.
+						</li>
+					   </ul>
+		            </div>
+		          </div>
+		        </li>
+		        <li class="timeline-inverted">
+		          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <img src="./images/emarkup.png" class="img_style" alt="logo">
+		              <h4 class="timeline-title">Emarkup Web Solutions</h4>
+		              <p><small class="text-muted">Co-Founder / Web Developer, Aug 2012 – Dec 2013</small></p>
+		            </div>
+		            <div class="timeline-body">
+		              <ul>
+		              	<li>
+		              		Analyzed client requirements, developed two websites and delivered it on time as per the requirements.
+		              	</li>
+		              	<li>
+					  		Applied marketing strategies to increase the visibility of the website by providing Search Engine Optimization techniques.
+					  	</li>
+					  </ul>
+		            </div>
+		          </div>
+		        </li>
+		    </ul>
+		</div>	
+	</div>
+	
+	
+		
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+<!--services-->
+<div class="services text-center" id="education">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt="edu"/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+				<p>2014 - Till Date</p><span>Graduating</span>
+				<img src="images/arrow.png" alt="arrow"/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MASTERS IN SOFTWARE ENGINEERING</h3>
+						<h4>San Jose State University (GPA - 3.9 / 4.0)</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>• Courses completed in previous semesters are Cloud Technologies, Software System Engineering, Enterprise Software Technologies, Enterprise Distributed systems, Virtualization and Web UI design and Technologies. <br>
+						• Courses enrolled in next semester are Cloud Services and Enterprise Application Development.</h5>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2008 - 2012</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>BACHELOR DEGREE IN COMPUTER SCIENCE</h3>
+						<h4>K. J. Somaiya College of Engineering (GPA - 3.89 / 4.0)</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>• Received 2 awards during my academic career from a state level competition Prakalpa.</h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!--portfolio-->
+<div class="gallery-section text-center" id="projects">
+	<div class="container">
+		<h3>Academic Projects</h3>
+		<div class="strip text-center"><img src="images/port.png" alt="port"/></div>
+		
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<section id="cd-timeline" class="cd-container">
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture">
+							<img src="images/cd-icon-picture.svg" alt="Picture">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Workforce Management System</h2>
+							 <ul class="project_style">
+				              	<li>
+				              		Developed a distributed 3-tier Single Page Restful application.
+				              	</li>
+				              	<li>
+							  		Introduced Rabbit MQ middleware to scale and to develop message oriented application.
+							  	</li>
+							  	<li>
+				              		Client Side Optimization Techniques: Gzip, Minification, Single Page Application. 
+				              	</li>
+				              	<li>
+							  		Server Side Optimization Techniques: Database Connection Pooling, Data Cache, SQL Cache, Prepared Statements, Vertical Partitioning.
+							  	</li>
+							  </ul>
+							<a href="https://github.com/RohanBhanderi/WFMS-Client" class="cd-read-more">Client</a>
+							<a href="https://github.com/RohanBhanderi/WFMS-Server" style="margin-left: 1%;" class="cd-read-more">Server</a>
+							<span class="cd-date date_style">May 2015</span>
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-movie">
+							<img src="images/cd-icon-movie.svg" alt="Movie">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Pix Art</h2>
+							<ul class="project_style">
+								<li>
+				              		Developed a responsive website for creating online diary, collage and cards to showcase Web UI Design Strategies. 
+				              	</li>
+				              	<li>
+							  		Achieved the above functionality using various JavaScript, jQuery and Node.Js.
+							  	</li>
+							  	<li>
+				              		Applied Search Engine Optimization techniques and implemented Localization to demonstrate user friendly interface.
+				              	</li>
+			              	</ul>
+							<a href="https://github.com/jenil-doshi/PixArt" class="cd-read-more">Read more</a>
+							<span class="cd-date date_style">April 2015</span>
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-location">
+							<img src="images/cd-icon-location.svg" alt="Location">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Virtualization Technologies</h2>
+							<ul class="project_style">
+								<li>
+					          		Performed Cold migration and live migration of a video from one vHost to another in online and offline mode.
+					          	</li>
+					          	<li>
+							  		Implemented availability manager and disaster recovery system to monitor the status and health of VM using Java VI API.
+							  	</li>
+							  	<li>
+					          		Developed a private cloud application to deploy, delete, power-on, power-off and to view statistics of virtual machine in data center.
+					          	</li>
+					          	<li>
+							  		Implemented alarm functionality in application similar to ‘AWS Cloud Watch’ by sending email notification to users.
+							  	</li>
+							</ul>
+							<a href="#0" class="cd-read-more">Read more</a>
+							<span class="cd-date date_style">April 2015</span>
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture">
+							<img src="images/cd-icon-picture.svg" alt="Picture">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>LinkedIn (Prototype)</h2>
+							<ul class="project_style">
+								<li>
+					          		Developed a distributed 3-tier Restful LinkedIn application having features such as sign-in, sign-up, sign-out, create user profile, edit user profile, search member, send and accept invitation to connect, show connections and last logged in time. 
+					          	</li>
+					          	<li>
+					          		Achieved performance tuning using Database connection pooling in SQL and assessed performance using JMeter.
+					          	</li>
+					          	<li>
+					          		Introduced Rabbit MQ middleware to scale and to develop message oriented application.
+					          	</li>
+							</ul>
+							<a href="https://github.com/jenil-doshi/LinkedIn-Prototype---Rabbit-MQ" class="cd-read-more">Read more</a>
+							<span class="cd-date date_style">Feb 2015</span>
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-location">
+							<img src="images/cd-icon-location.svg" alt="Location">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Data Exchange using Dockers</h2>
+							<ul class="project_style">
+								<li>
+					          		Added layers of Node.js and Mongo DB images on the base image of Ubuntu on different host systems.
+					          	</li>
+					          	<li>
+					          		Started the containers by running the images both interactively and as a daemon using docker commands.
+					          	</li>
+					          	<li>
+					          		Fetched data from Mongo DB and displayed it using Node.js application.
+					          	</li>
+							</ul>
+							<a href="#0" class="cd-read-more">Read more</a>
+							<span class="cd-date date_style">Jan 2015</span>
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-movie">
+							<img src="images/cd-icon-movie.svg" alt="Movie">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>API Gateway Management Server</h2>
+							<ul class="project_style">
+								<li>
+					          		A simple API Management Gateway server for RESTful APIs.
+					          	</li>
+					          	<li>
+					          		The gateway accepts all calls made to it, pass them on to the proxied API (Twitter API), and return the results back to the caller.
+					          	</li>
+					          	<li>
+					          		Implemented using Loopback Framework and Node.js.
+					          	</li>
+							</ul>
+							<a href="https://github.com/jenil-doshi/API-Gateway-Management-Server" class="cd-read-more">Read more</a>
+							<span class="cd-date date_style" >Jan 2015</span>
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture">
+							<img src="images/cd-icon-picture.svg" alt="Picture">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Solution Box</h2>
+							<ul class="project_style">
+								<li>
+					          		Fetched the data from Stack Overflow API using Node JS framework and NPM packages.
+					          	</li>
+					          	<li>
+					          		Performed Real time analysis of data using Google Chart API based on sorted, unsorted data and hottest technologies.
+					          	</li>
+					          	<li>
+					          		Designed web pages using Bootstrap, integrated express code with Node JS and deployed the website on Bluemix.
+					          	</li>
+							</ul>
+							<a href="https://github.com/vijeshjain/SolutionBox" class="cd-read-more">Read more</a>
+							<span class="cd-date date_style">Dec 2014</span>
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+				</section> <!-- cd-timeline -->
+				<div class="clearfix"> </div>
+			</div>
+				
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+
+<!--blog-->
+<div class="blog" id="blog">
+	<div class="container">
+		<div class="blog-info text-center">
+			<h3>BLOG</h3>
+			<div class="strip text-center"><img src="images/blog.png" alt="blog"/></div>
+		</div>
+		<div id="design" class="date">
+			<div id="cycler">   
+			    <div class="date-text">
+					<p><span>13, Sept 2014</span>    Salesforce - Customized Application in Cloud</p>
+					<div class="visit">
+						<p>+ visit my blog</p>
+					</div>
+				</div>
+				<div class="date-text">
+					<p><span>18, Oct 2014</span>   Aspect J - Feature Modelling</p>
+					<div class="visit">
+						<p>+ visit my blog</p>
+					</div>
+				</div>
+				<div class="date-text">
+					<p><span>16, Feb 2015</span>   Docker Containers - Simple Application</p>
+					<div class="visit">
+						<p>+ visit my blog</p>
+					</div>
+				</div>
+				<div class="date-text">
+					<p><span>08, April 2015</span>   Web Technologies</p>
+					<div class="visit">
+						<p>+ visit my blog</p>
+					</div>
+				</div> 
+			</div>
+			<script>
+				function cycle($item, $cycler){
+				    setTimeout(cycle, 2000, $item.next(), $cycler);
+				    
+				    $item.slideUp(1000,function(){
+				        $item.appendTo($cycler).show();        
+				    });
+    
+					}
+				cycle($('#cycler div:first'),  $('#cycler'));
+			</script>
+		</div>
+	</div>
+</div>
+<!--//blog-->
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-grids">
+				<table class="table_style">
+					<tr>
+						<td>
+							<ul>
+								<li>
+									101 E San Fernando St., 
+								</li>
+								<li>
+									San Jose, California, 95112
+								</li>
+							</ul>
+						</td>
+						<td>Mobile: (669) 221 9666</td>
+						<td>Email: &nbsp; <a href="mailto:jenil.doshi@sjsu.edu" >jenil.doshi@sjsu.edu</a></td>
+					</tr>
+				</table>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<!--resume-->
+<!-- <div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="#">Download My Resume</a></div>
+	</div>
+</div> -->
+<!--//resume-->
+
+<!--footer-->
+<!-- <div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div> -->
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
