@@ -725,7 +725,7 @@
 			    <div class="date-text">
 					<p><span>13, Sept 2014</span>    Salesforce - Customized Application in Cloud</p>
 					<div class="visit">
-						<p>+ visit my blog</p>
+						<p><a href="single.html">+ visit my blog</a></p>
 					</div>
 				</div>
 				<div class="date-text">
@@ -749,9 +749,9 @@
 			</div>
 			<script>
 				function cycle($item, $cycler){
-				    setTimeout(cycle, 2000, $item.next(), $cycler);
+				    setTimeout(cycle, 4000, $item.next(), $cycler);
 				    
-				    $item.slideUp(1000,function(){
+				    $item.slideUp(3000,function(){
 				        $item.appendTo($cycler).show();        
 				    });
     

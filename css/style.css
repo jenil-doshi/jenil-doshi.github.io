@@ -4,6 +4,30 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.float-right{
+  float:right;
+  margin-bottom: 25%;
+}
+.main-page-center{
+  font-size: 20px;
+font-weight: 500;
+margin: 20px 0;
+color: #509EAB;
+line-height: 1.6em;
+text-align: -webkit-center;
+}
+.main-page-para{
+  margin: 0;
+line-height: 1.8em;
+color: #22262B;
+font-size: 18px;
+font-weight: 300;
+font-family: 'Lato', sans-serif;
+text-align: justify;
+}
+.black{
+  color: black;
+}
 .icon2_margin{
   margin-left:10px;
 }
@@ -1488,17 +1512,17 @@ background:#dcdcdf;
 .sample-page-info h5 {
   	font-size: 20px;
   	font-weight: 500;
-  	margin: 20px 0;
-  	color:#52edc7;
+  	color:#509EAB;
   	line-height: 1.6em;
 }
 .sample-page-info p{
   margin:0;
   line-height: 1.8em;
-  color: #888b90;
+  color: #22262B;
   font-size: 18px;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
+  text-align: justify;
 }
 .sample-page  img {
 	box-sizing: border-box;
