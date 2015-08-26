@@ -203,65 +203,7 @@
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
-					         <script>			
-									
-								Circles.create({
-									id:         document.getElementById('circles-1').id,
-									percentage: 70,
-									radius:     80,
-									width:      10,
-									number:   	70,
-									text:       '%',
-									colors:     ['#73c1ce', '#ffffff']
-								});
-								Circles.create({
-									id:         document.getElementById('circles-2').id,
-									percentage: 80,
-									radius:     80,
-									width:      10,
-									number:   	80,
-									text:       '%',
-									colors:     ['#73c1ce', '#ffffff']
-								});
-								Circles.create({
-									id:         document.getElementById('circles-3').id,
-									percentage: 85,
-									radius:     80,
-									width:      10,
-									number:   	85,
-									text:       '%',
-									colors:     ['#73c1ce', '#ffffff']
-								});
-								Circles.create({
-									id:         document.getElementById('circles-4').id,
-									percentage: 70,
-									radius:     80,
-									width:      10,
-									number:   	70,
-									text:       '%',
-									colors:     ['#73c1ce', '#ffffff']
-								});
-								Circles.create({
-									id:         document.getElementById('circles-5').id,
-									percentage: 30,
-									radius:     80,
-									width:      10,
-									number:   	30,
-									text:       '%',
-									colors:     ['#73c1ce', '#ffffff']
-								});
-								Circles.create({
-									id:         document.getElementById('circles-6').id,
-									percentage: 80,
-									radius:     80,
-									width:      10,
-									number:   	80,
-									text:       '%',
-									colors:     ['#73c1ce', '#ffffff']
-								});
-								
-						
-				</script>
+					
 		</div>
 
 	</div>	
@@ -747,17 +689,7 @@
 					</div>
 				</div> 
 			</div>
-			<script>
-				function cycle($item, $cycler){
-				    setTimeout(cycle, 4000, $item.next(), $cycler);
-				    
-				    $item.slideUp(3000,function(){
-				        $item.appendTo($cycler).show();        
-				    });
-    
-					}
-				cycle($('#cycler div:first'),  $('#cycler'));
-			</script>
+			<script type="text/javascript" src="js/cycle.js"></script>
 		</div>
 	</div>
 </div>

@@ -205,3 +205,58 @@
     return new Circles(options);
   };
 })();
+
+Circles.create({
+  id:         document.getElementById('circles-1').id,
+  percentage: 70,
+  radius:     80,
+  width:      10,
+  number:     70,
+  text:       '%',
+  colors:     ['#73c1ce', '#ffffff']
+});
+Circles.create({
+  id:         document.getElementById('circles-2').id,
+  percentage: 80,
+  radius:     80,
+  width:      10,
+  number:     80,
+  text:       '%',
+  colors:     ['#73c1ce', '#ffffff']
+});
+Circles.create({
+  id:         document.getElementById('circles-3').id,
+  percentage: 85,
+  radius:     80,
+  width:      10,
+  number:     85,
+  text:       '%',
+  colors:     ['#73c1ce', '#ffffff']
+});
+Circles.create({
+  id:         document.getElementById('circles-4').id,
+  percentage: 70,
+  radius:     80,
+  width:      10,
+  number:     70,
+  text:       '%',
+  colors:     ['#73c1ce', '#ffffff']
+});
+Circles.create({
+  id:         document.getElementById('circles-5').id,
+  percentage: 30,
+  radius:     80,
+  width:      10,
+  number:     30,
+  text:       '%',
+  colors:     ['#73c1ce', '#ffffff']
+});
+Circles.create({
+  id:         document.getElementById('circles-6').id,
+  percentage: 80,
+  radius:     80,
+  width:      10,
+  number:     80,
+  text:       '%',
+  colors:     ['#73c1ce', '#ffffff']
+});
