@@ -1564,6 +1564,7 @@ width:100%;
 }
 .soc_icons ul li{
   margin:10px;
+  margin-left: 60px;
 }
 .soc_icons ul li a{
   opacity:0.8;

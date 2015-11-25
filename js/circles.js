@@ -208,10 +208,10 @@
 
 Circles.create({
   id:         document.getElementById('circles-1').id,
-  percentage: 70,
+  percentage: 80,
   radius:     80,
   width:      10,
-  number:     70,
+  number:     80,
   text:       '%',
   colors:     ['#73c1ce', '#ffffff']
 });
@@ -226,16 +226,16 @@ Circles.create({
 });
 Circles.create({
   id:         document.getElementById('circles-3').id,
-  percentage: 85,
+  percentage: 80,
   radius:     80,
   width:      10,
-  number:     85,
+  number:     80,
   text:       '%',
   colors:     ['#73c1ce', '#ffffff']
 });
 Circles.create({
   id:         document.getElementById('circles-4').id,
-  percentage: 70,
+  percentage: 60,
   radius:     80,
   width:      10,
   number:     70,
@@ -244,10 +244,10 @@ Circles.create({
 });
 Circles.create({
   id:         document.getElementById('circles-5').id,
-  percentage: 30,
+  percentage: 10,
   radius:     80,
   width:      10,
-  number:     30,
+  number:     10,
   text:       '%',
   colors:     ['#73c1ce', '#ffffff']
 });
